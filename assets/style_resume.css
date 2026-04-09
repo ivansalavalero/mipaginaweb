@@ -326,6 +326,12 @@ main{
     .referencies .contingut p{
         margin-bottom: 20px;
     }
+    .competencies{
+        border-right:none;
+    }
+    .idiomes{
+    border-right:none;
+}
 }
 /*---------------------------------------------------------*/
 /*-----------       RESOPONSIVE TABLET      ----------------*/
@@ -376,7 +382,7 @@ main{
     .competencies{
         grid-area: COM;
         font-size: 14px;
-        border-right: 2px solid white;
+        border-right: 1px solid #115a8a;
     }
     .experiencia{
         grid-area: EXP;
