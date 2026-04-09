@@ -81,6 +81,10 @@ $lang = array(
                 "curri_altres2_06" => 'Tipografia',
 
                 "curri_lang" => 'Idiomas',
+                "curri_lang_nat" => 'Nativo',
+                "curri_lang_inter" => 'Intermedio',
+                "curri_lang_av" => 'Avamzado',
+                "curri_lang_basic" => 'Básico',
 
                 "curri_form" => 'Formación Académica',
                 "curri_form_01" => 'Grado Superior en Diseño Gráfico',

@@ -109,6 +109,7 @@ main{
 .competencies{
     background-color: white;
     grid-area: COMP;
+    border-right: 1px solid #115a8a;
 }
 .competencies h2{
     background-color: #afd7ef;
@@ -120,6 +121,10 @@ main{
 }
 .competencies .contingut h3{
     padding: 20px 0px 10px 0px;
+    border-bottom: 1px dashed #115a8a;
+}
+.competencies .contingut ul{
+    padding-top: 10px;
 }
 .competencies .contingut ul li{
     padding-bottom: 5px;
@@ -132,6 +137,7 @@ main{
 .idiomes{
     background-color: white;
     grid-area: LAN;
+    border-right: 1px solid #115a8a;
 }
 .idiomes h2{
     background-color: #afd7ef;
@@ -163,10 +169,19 @@ main{
 }
 .experiencia .contingut{
     padding: 20px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
-.dates{
+.experiencia .contingut h4{
+    border-bottom: 1px dashed #115a8a;
+    padding-bottom: 20px;
+}
+.experiencia .contingut ul{
+    list-style:disc;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+/*.dates{
     width: 30%;
     padding-left: 10px;
 }
@@ -182,7 +197,7 @@ main{
     background-color: #afd7ef;
     padding: 20px;
     width: 70%;
-}
+}*/
 .formacio{
     grid-area: FOR;
     background-color: #afd7ef;

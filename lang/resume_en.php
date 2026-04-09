@@ -82,6 +82,10 @@ $lang = array(
                 "curri_altres2_06" => 'Typography',
 
                 "curri_lang" => 'Lenguages',
+                "curri_lang_nat" => 'Native',
+                "curri_lang_inter" => 'Intermediate',
+                "curri_lang_av" => 'Advanced',
+                "curri_lang_basic" => 'Basic',
 
                 "curri_form" => 'Training',
                 "curri_form_01" => 'Graduate in Graphic Design',

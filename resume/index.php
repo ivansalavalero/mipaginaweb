@@ -56,7 +56,7 @@
         <div class="competencies">
             <h2><i class="fa-solid fa-user-gear"></i><?php echo $lang["curri_know"]; ?></h2>
             <div class="contingut">
-                <h3><?php echo $lang["curri_altres"]; ?></h3>
+                <h3><?php echo $lang["curri_altres"]; ?></h3>            
                 <ul>
                     <li><?php echo $lang["curri_altres_04"];?></li>
                     <li><?php echo $lang["curri_altres_05"];?></li>
@@ -98,10 +98,10 @@
             <h2><i class="fa-solid fa-earth-americas"></i><?php echo $lang["curri_lang"]; ?></h2>
             <div class="contingut">
                 <ul>
-                    <li>Català - C2<div class="coneixement" style="text-align: right;"><div style="background-color: #115a8a; height: 10px; width: 140px;" ></div></div></li>
-                    <li>Español - C2<div class="coneixement"><div style="background-color: #115a8a; height: 10px; width: 140px;" ></div></div></li>
-                    <li>English - B2<div class="coneixement"><div style="background-color: #115a8a; height: 10px; width: 102px;" ></div><div style="background-color: #afd7ef; height: 10px; width: 38px;" ></div></div></li>
-                    <li>Português - B1<div class="coneixement"><div style="background-color: #115a8a; height: 10px; width: 50px;" ></div><div style="background-color: #afd7ef; height: 10px; width: 90px;" ></div></div></li>
+                    <li><b>Català</b> - <?php echo $lang["curri_lang_nat"]; ?> C2<!--<div class="coneixement" style="text-align: right;"><div style="background-color: #115a8a; height: 10px; width: 140px;" ></div></div>--></li>
+                    <li><b>Español</b> - <?php echo $lang["curri_lang_nat"]; ?> C2<!--<div class="coneixement"><div style="background-color: #115a8a; height: 10px; width: 140px;" ></div></div>--></li>
+                    <li><b>English</b> - <?php echo $lang["curri_lang_inter"]; ?> B2<!--<div class="coneixement"><div style="background-color: #115a8a; height: 10px; width: 102px;" ></div><div style="background-color: #afd7ef; height: 10px; width: 38px;" ></div></div>--></li>
+                    <li><b>Português</b> - <?php echo $lang["curri_lang_inter"]; ?> B1<!--<div class="coneixement"><div style="background-color: #115a8a; height: 10px; width: 50px;" ></div><div style="background-color: #afd7ef; height: 10px; width: 90px;" ></div></div>--></li>
                 </ul>
             </div>
         </div>
@@ -111,50 +111,54 @@
         <div class="experiencia">
             <h2><i class="fa-solid fa-briefcase"></i> <?php echo $lang["curri_expe"];?></h2>
             <div class="contingut">
-                <div class="dates">
-                    <h3>2025-2026</h3>
-                    <!--<p><?php echo $lang["curri_expe_01_a"];?><br><?php echo $lang["curri_expe_01_b"];?></p>-->
-                    <p><b><em>GPC Studio</em></b></p>
-                </div>
-                <div class="triangle"></div>
-                <div class="accions"><?php echo $lang["curri_expe_desc_05"]; ?></div>
+                <h3>CLICKART / CLICKEDU</h3>
+                <h4>2010 – 2023 · Senior Web Designer → Brand Manager → Team Lead</h4>
+                <p>
+                    <ul>
+                        <li>Lideratge de la renovació integral del branding corporatiu, millorant la coherència visual en entorns digitals i multicanal</li>
+                        <li>Disseny i desenvolupament de webs i microsites per clients com Grup Planeta, Quadis i Philips</li>
+                        <li>Coordinació d’equips multidisciplinaris (disseny i desenvolupament)</li>
+                        <li>Execució de campanyes digitals i materials promocionals orientats a resultats</li>
+                        <li>Gestió de xarxes socials alineades amb la nova identitat de marca</li>
+                        <li>Implementació de projectes tècnics (importació de dades), assegurant consistència visual i funcional</li>
+                    </ul>
+                </p>
             </div>
             <div class="contingut">
-                <div class="dates">
-                    <h3>2017-2023</h3>
-                    <!--<p><?php echo $lang["curri_expe_01_a"];?><br><?php echo $lang["curri_expe_01_b"];?></p>-->
-                    <p><b><em>Clickart - Clickedu</em></b></p>
-                </div>
-                <div class="triangle"></div>
-                <div class="accions"><?php echo $lang["curri_expe_desc_01"]; ?></div>
+                <h3>GPC STUDIO (Upskilling en desenvolupament frontend)</h3>
+                <h4>2025 – 2026 · Desenvolupador web</h4>
+                <p>
+                    <ul>
+                        <li>Actualització de competències en desenvolupament web modern</li>
+                        <li>Aplicació pràctica de tecnologies frontend en entorns reals</li>
+                    </ul>
+                </p>
             </div>
             <div class="contingut">
-                <div class="dates">
-                    <h3>2010-2023</h3>
-                    <!--<p><?php echo $lang["curri_expe_01_c"];?><br><?php echo $lang["curri_expe_01_d"];?></p>-->
-                    <p><b><em>Clickart - Clickedu</em></b></p>
-                </div>
-                <div class="triangle"></div>
-                <div class="accions"><?php echo $lang["curri_expe_desc_02"]; ?></div>
+                <h3>AUTÒNOM</h3>
+                <h4>2003 – 2010 · Web & Brand Designer</h4>
+                <p>
+                    <ul>
+                        <li>Desenvolupament de projectes de branding i disseny web per a diferents clients</li>
+                        <li>Gestió integral de projectes i relació directa amb client</li>
+                    </ul>
+                </p>
             </div>
             <div class="contingut">
-                <div class="dates">
-                    <h3>2003-2010</h3>
-                    <!--<p><?php echo $lang["curri_expe_01_c"];?></p>-->
-                    <p><b><em><?php echo $lang["curri_expe_02"];?></em></b></p>
-                </div>
-                <div class="triangle"></div>
-                <div class="accions"><?php echo $lang["curri_expe_desc_03"]; ?></div>
+                <h3>STEREO RENT</h3>
+                <h4>1999 – 2003 · Dissenyador Gràfic</h4>
+                <p>
+                    <ul>
+                        <li>Disseny i escenografia per a esdeveniments i espais firals</li>
+                        <li>Desenvolupament de campanyes visuals per entorns corporatius i institucionals</li>
+                    </ul>
+                </p>
             </div>
-            <div class="contingut">
-                <div class="dates">
-                    <h3>1999-2003</h3>
-                    <!--<p><?php echo $lang["curri_expe_03_a"];?><br><?php //echo $lang["curri_expe_03_b"];?></p>-->
-                    <p><b><em>Stereo Rent</em></b></p>
-                </div>
-                <div class="triangle"></div>
-                <div class="accions"><?php echo $lang["curri_expe_desc_04"]; ?></div>
-            </div>
+            <!--<div class="contingut"><div class="dates"><h3>2025-2026</h3><p><b><em>GPC Studio</em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_05"]; ?></div></div>
+            <div class="contingut"><div class="dates"><h3>2017-2023</h3><p><b><em>Clickart - Clickedu</em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_01"]; ?></div></div>
+            <div class="contingut"><div class="dates"><h3>2010-2023</h3><p><b><em>Clickart - Clickedu</em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_02"]; ?></div></div>
+            <div class="contingut"><div class="dates"><h3>2003-2010</h3><p><b><em><?php echo $lang["curri_expe_02"];?></em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_03"]; ?></div></div>
+            <div class="contingut"><div class="dates"><h3>1999-2003</h3><p><b><em>Stereo Rent</em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_04"]; ?></div></div>-->
         </div>
         <!--------------------------------------------------------------->
         <!--------------------        FORMACIÓ     ---------------------->
