@@ -58,35 +58,30 @@
             <div class="contingut">
                 <h3><?php echo $lang["curri_altres"]; ?></h3>            
                 <ul>
-                    <li><?php echo $lang["curri_altres_04"];?></li>
-                    <li><?php echo $lang["curri_altres_05"];?></li>
-                    <li><?php echo $lang["curri_altres_06"];?></li>
-                    <li><?php echo $lang["curri_altres_07"];?></li>
                     <li><?php echo $lang["curri_altres_01"];?></li>
                     <li><?php echo $lang["curri_altres_02"];?></li>
                     <li><?php echo $lang["curri_altres_03"];?></li>
+                    <li><?php echo $lang["curri_altres_04"];?></li>
+                    <li><?php echo $lang["curri_altres_05"];?></li>
                 </ul>
                 <h3><?php echo $lang["curri_altres2"]; ?></h3>
                 <ul>
                     <li><b><?php echo $lang["curri_altres2_01"]; ?></b></li>
                     <li><?php echo $lang["curri_soft_01"]; ?></li>
-                    <li><?php echo $lang["curri_soft_06"]; ?></li>
-                    <li><?php echo $lang["curri_soft_07"]; ?></li>
+                    <li><?php echo $lang["curri_soft_02"]; ?></li>
+                    <li><?php echo $lang["curri_soft_03"]; ?></li>
                     
                     <li><b><?php echo $lang["curri_altres2_02"]; ?></b></li>
-                    <li><?php echo $lang["curri_soft_02"]; ?></li>
-                    <li><?php echo $lang["curri_soft_08"]; ?></li>
-                    <li><?php echo $lang["curri_soft_09"]; ?></li>
-                    
-                    <li><b><?php echo $lang["curri_altres2_04"]; ?></b></li>
                     <li><?php echo $lang["curri_soft_04"]; ?></li>
                     <li><?php echo $lang["curri_soft_05"]; ?></li>
                     
-                    <li><b><?php echo $lang["curri_altres2_05"]; ?></b></li>
-                    <li><?php echo $lang["curri_soft_11"]; ?></li>
-                    
                     <li><b><?php echo $lang["curri_altres2_03"]; ?></b></li>
-                    <li><?php echo $lang["curri_soft_03"]; ?></li>
+                    <li><?php echo $lang["curri_soft_06"]; ?></li>
+                    <li><?php echo $lang["curri_soft_07"]; ?></li>
+                    
+                    <li><b><?php echo $lang["curri_altres2_04"]; ?></b></li>
+                    <li><?php echo $lang["curri_soft_08"]; ?></li>
+                    <li><?php echo $lang["curri_soft_09"]; ?></li>
                     <li><?php echo $lang["curri_soft_10"]; ?></li>
                 </ul>
             </div>
@@ -111,48 +106,24 @@
         <div class="experiencia">
             <h2><i class="fa-solid fa-briefcase"></i> <?php echo $lang["curri_expe"];?></h2>
             <div class="contingut">
-                <h3>CLICKART / CLICKEDU</h3>
-                <h4>2010 – 2023 · Senior Web Designer → Brand Manager → Team Lead</h4>
-                <p>
-                    <ul>
-                        <li>Lideratge de la renovació integral del branding corporatiu, millorant la coherència visual en entorns digitals i multicanal</li>
-                        <li>Disseny i desenvolupament de webs i microsites per clients com Grup Planeta, Quadis i Philips</li>
-                        <li>Coordinació d’equips multidisciplinaris (disseny i desenvolupament)</li>
-                        <li>Execució de campanyes digitals i materials promocionals orientats a resultats</li>
-                        <li>Gestió de xarxes socials alineades amb la nova identitat de marca</li>
-                        <li>Implementació de projectes tècnics (importació de dades), assegurant consistència visual i funcional</li>
-                    </ul>
-                </p>
+                <h3><?php echo $lang["curri_expe_01"];?></h3>
+                <h4><?php echo $lang["curri_expe_01_a"];?></h4>
+                <p><?php echo $lang["curri_expe_01_desc"];?></p>
             </div>
             <div class="contingut">
-                <h3>GPC STUDIO (Upskilling en desenvolupament frontend)</h3>
-                <h4>2025 – 2026 · Desenvolupador web</h4>
-                <p>
-                    <ul>
-                        <li>Actualització de competències en desenvolupament web modern</li>
-                        <li>Aplicació pràctica de tecnologies frontend en entorns reals</li>
-                    </ul>
-                </p>
+                <h3><?php echo $lang["curri_expe_02"];?></h3>
+                <h4><?php echo $lang["curri_expe_02_a"];?></h4>
+                <p><?php echo $lang["curri_expe_02_desc"];?></p>
             </div>
             <div class="contingut">
-                <h3>AUTÒNOM</h3>
-                <h4>2003 – 2010 · Web & Brand Designer</h4>
-                <p>
-                    <ul>
-                        <li>Desenvolupament de projectes de branding i disseny web per a diferents clients</li>
-                        <li>Gestió integral de projectes i relació directa amb client</li>
-                    </ul>
-                </p>
+                <h3><?php echo $lang["curri_expe_03"];?></h3>
+                <h4><?php echo $lang["curri_expe_03_a"];?></h4>
+                <p><?php echo $lang["curri_expe_03_desc"];?></p>
             </div>
             <div class="contingut">
-                <h3>STEREO RENT</h3>
-                <h4>1999 – 2003 · Dissenyador Gràfic</h4>
-                <p>
-                    <ul>
-                        <li>Disseny i escenografia per a esdeveniments i espais firals</li>
-                        <li>Desenvolupament de campanyes visuals per entorns corporatius i institucionals</li>
-                    </ul>
-                </p>
+                <h3><?php echo $lang["curri_expe_04"];?></h3>
+                <h4><?php echo $lang["curri_expe_04_a"];?></h4>
+                <p><?php echo $lang["curri_expe_04_desc"];?></p>
             </div>
             <!--<div class="contingut"><div class="dates"><h3>2025-2026</h3><p><b><em>GPC Studio</em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_05"]; ?></div></div>
             <div class="contingut"><div class="dates"><h3>2017-2023</h3><p><b><em>Clickart - Clickedu</em></b></p></div><div class="triangle"></div><div class="accions"><?php echo $lang["curri_expe_desc_01"]; ?></div></div>
@@ -210,11 +181,11 @@
     <footer>
         <div class="referencies">
             <h2><i class="fa-solid fa-users"></i><?php echo $lang["curri_ref"];?></h2>
-            <div class="contingut">
+            <!--<div class="contingut">
                 <p><?php echo $lang["curri_ref_01"];?></p>
                 <p><?php echo $lang["curri_ref_02"];?></p>
                 <p><?php echo $lang["curri_ref_03"];?></p>
-            </div>
+            </div>-->
         </div>
     </footer>
 </body>

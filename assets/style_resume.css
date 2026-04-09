@@ -233,6 +233,7 @@ main{
 .referencies{
     background-color: #115a8a;
     color: white;
+    
 }
 .referencies i{
     color: white;
@@ -241,6 +242,7 @@ main{
     margin: 0px;
     padding: 10px 0px;
     color: white;
+    text-align: center;
 }
 .referencies .contingut{
     text-align: center;
