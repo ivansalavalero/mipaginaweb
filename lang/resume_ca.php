@@ -16,7 +16,7 @@ $lang = array(
 "curri_prof" => 'Especialista en Disseny Web i Brand Manager <br>(15+ anys d\'experiència)',
 "curri_presentacio_01" =>'Professional del disseny i la comunicació visual amb més de <b>15 anys d\'experiència</b> en l\'àmbit corporatiu, web i editorial. Expert en <b>Brand Manager</b>, <b>Disseny Web</b> (Html, CSS, Javascript) i <b>Il·lustració</b>, amb una clara orientació a la <b>gestió de projectes</b> i a l\'obtenció de resultats visuals innovadors i eficients.',
 
-"curri_expe" => 'Experiència laboral',
+"curri_expe" => 'Experiència Professional',
 "curri_expe_01" => 'Clickart - Clickedu',
 "curri_expe_01_d" => 'Brand Manager',
                 "curri_expe_01_a" => 'Disseny de Marca i XXSS',

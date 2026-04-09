@@ -153,9 +153,10 @@ main{
     grid-area: EXP;
 }
 .experiencia h2{
-    background-color: #afd7ef;
+    background-color: #115a8a;/*#afd7ef*/
     margin: 0px;
     padding: 10px 0px;
+    color: white;
 }
 .experiencia .contingut{
     padding: 20px;
